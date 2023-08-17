@@ -26,4 +26,4 @@ workflows:
     publishing:
       email:
         recipients:
-          - rarito.jogja@gmail.com # Isikan email untuk notifikasi status building.
+          - rahmatsusanto.dev@gmail.com # Isikan email untuk notifikasi status building.
