@@ -14,8 +14,6 @@
 		FAF0B01D2A8DBA9F00F12357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF0B01C2A8DBA9F00F12357 /* Assets.xcassets */; };
 		FAF0B0202A8DBA9F00F12357 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF0B01E2A8DBA9F00F12357 /* LaunchScreen.storyboard */; };
 		FAF0B02E2A8DBADD00F12357 /* CDBootcampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF0B02D2A8DBADD00F12357 /* CDBootcampTests.swift */; };
-		FAF0B03B2A8DBBC800F12357 /* CDBootcampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF0B03A2A8DBBC800F12357 /* CDBootcampUITests.swift */; };
-		FAF0B03D2A8DBBC800F12357 /* CDBootcampUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF0B03C2A8DBBC800F12357 /* CDBootcampUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +45,6 @@
 		FAF0B02B2A8DBADD00F12357 /* CDBootcampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDBootcampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF0B02D2A8DBADD00F12357 /* CDBootcampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDBootcampTests.swift; sourceTree = "<group>"; };
 		FAF0B0382A8DBBC800F12357 /* CDBootcampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDBootcampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAF0B03A2A8DBBC800F12357 /* CDBootcampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDBootcampUITests.swift; sourceTree = "<group>"; };
-		FAF0B03C2A8DBBC800F12357 /* CDBootcampUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDBootcampUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +77,6 @@
 			children = (
 				FAF0B0122A8DBA9D00F12357 /* CDBootcamp */,
 				FAF0B02C2A8DBADD00F12357 /* CDBootcampTests */,
-				FAF0B0392A8DBBC800F12357 /* CDBootcampUITests */,
 				FAF0B0112A8DBA9D00F12357 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -116,15 +111,6 @@
 				FAF0B02D2A8DBADD00F12357 /* CDBootcampTests.swift */,
 			);
 			path = CDBootcampTests;
-			sourceTree = "<group>";
-		};
-		FAF0B0392A8DBBC800F12357 /* CDBootcampUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FAF0B03A2A8DBBC800F12357 /* CDBootcampUITests.swift */,
-				FAF0B03C2A8DBBC800F12357 /* CDBootcampUITestsLaunchTests.swift */,
-			);
-			path = CDBootcampUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,8 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAF0B03D2A8DBBC800F12357 /* CDBootcampUITestsLaunchTests.swift in Sources */,
-				FAF0B03B2A8DBBC800F12357 /* CDBootcampUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +332,8 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -408,6 +394,8 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
