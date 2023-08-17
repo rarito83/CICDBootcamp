@@ -13,7 +13,27 @@
 		FAF0B01B2A8DBA9D00F12357 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF0B0192A8DBA9D00F12357 /* Main.storyboard */; };
 		FAF0B01D2A8DBA9F00F12357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF0B01C2A8DBA9F00F12357 /* Assets.xcassets */; };
 		FAF0B0202A8DBA9F00F12357 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF0B01E2A8DBA9F00F12357 /* LaunchScreen.storyboard */; };
+		FAF0B02E2A8DBADD00F12357 /* CDBootcampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF0B02D2A8DBADD00F12357 /* CDBootcampTests.swift */; };
+		FAF0B03B2A8DBBC800F12357 /* CDBootcampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF0B03A2A8DBBC800F12357 /* CDBootcampUITests.swift */; };
+		FAF0B03D2A8DBBC800F12357 /* CDBootcampUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF0B03C2A8DBBC800F12357 /* CDBootcampUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAF0B02F2A8DBADD00F12357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF0B0082A8DBA9D00F12357 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF0B00F2A8DBA9D00F12357;
+			remoteInfo = CDBootcamp;
+		};
+		FAF0B03E2A8DBBC800F12357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF0B0082A8DBA9D00F12357 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF0B00F2A8DBA9D00F12357;
+			remoteInfo = CDBootcamp;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		FAF0B0102A8DBA9D00F12357 /* CDBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +44,29 @@
 		FAF0B01C2A8DBA9F00F12357 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAF0B01F2A8DBA9F00F12357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAF0B0212A8DBA9F00F12357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF0B02B2A8DBADD00F12357 /* CDBootcampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDBootcampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF0B02D2A8DBADD00F12357 /* CDBootcampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDBootcampTests.swift; sourceTree = "<group>"; };
+		FAF0B0382A8DBBC800F12357 /* CDBootcampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDBootcampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF0B03A2A8DBBC800F12357 /* CDBootcampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDBootcampUITests.swift; sourceTree = "<group>"; };
+		FAF0B03C2A8DBBC800F12357 /* CDBootcampUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDBootcampUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		FAF0B00D2A8DBA9D00F12357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF0B0282A8DBADD00F12357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF0B0352A8DBBC800F12357 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				FAF0B0122A8DBA9D00F12357 /* CDBootcamp */,
+				FAF0B02C2A8DBADD00F12357 /* CDBootcampTests */,
+				FAF0B0392A8DBBC800F12357 /* CDBootcampUITests */,
 				FAF0B0112A8DBA9D00F12357 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				FAF0B0102A8DBA9D00F12357 /* CDBootcamp.app */,
+				FAF0B02B2A8DBADD00F12357 /* CDBootcampTests.xctest */,
+				FAF0B0382A8DBBC800F12357 /* CDBootcampUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,6 +108,23 @@
 				FAF0B0212A8DBA9F00F12357 /* Info.plist */,
 			);
 			path = CDBootcamp;
+			sourceTree = "<group>";
+		};
+		FAF0B02C2A8DBADD00F12357 /* CDBootcampTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF0B02D2A8DBADD00F12357 /* CDBootcampTests.swift */,
+			);
+			path = CDBootcampTests;
+			sourceTree = "<group>";
+		};
+		FAF0B0392A8DBBC800F12357 /* CDBootcampUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF0B03A2A8DBBC800F12357 /* CDBootcampUITests.swift */,
+				FAF0B03C2A8DBBC800F12357 /* CDBootcampUITestsLaunchTests.swift */,
+			);
+			path = CDBootcampUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +147,42 @@
 			productReference = FAF0B0102A8DBA9D00F12357 /* CDBootcamp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		FAF0B02A2A8DBADD00F12357 /* CDBootcampTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF0B0312A8DBADD00F12357 /* Build configuration list for PBXNativeTarget "CDBootcampTests" */;
+			buildPhases = (
+				FAF0B0272A8DBADD00F12357 /* Sources */,
+				FAF0B0282A8DBADD00F12357 /* Frameworks */,
+				FAF0B0292A8DBADD00F12357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF0B0302A8DBADD00F12357 /* PBXTargetDependency */,
+			);
+			name = CDBootcampTests;
+			productName = CDBootcampTests;
+			productReference = FAF0B02B2A8DBADD00F12357 /* CDBootcampTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAF0B0372A8DBBC800F12357 /* CDBootcampUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF0B0402A8DBBC800F12357 /* Build configuration list for PBXNativeTarget "CDBootcampUITests" */;
+			buildPhases = (
+				FAF0B0342A8DBBC800F12357 /* Sources */,
+				FAF0B0352A8DBBC800F12357 /* Frameworks */,
+				FAF0B0362A8DBBC800F12357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF0B03F2A8DBBC800F12357 /* PBXTargetDependency */,
+			);
+			name = CDBootcampUITests;
+			productName = CDBootcampUITests;
+			productReference = FAF0B0382A8DBBC800F12357 /* CDBootcampUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +195,14 @@
 				TargetAttributes = {
 					FAF0B00F2A8DBA9D00F12357 = {
 						CreatedOnToolsVersion = 14.2;
+					};
+					FAF0B02A2A8DBADD00F12357 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FAF0B00F2A8DBA9D00F12357;
+					};
+					FAF0B0372A8DBBC800F12357 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FAF0B00F2A8DBA9D00F12357;
 					};
 				};
 			};
@@ -116,6 +220,8 @@
 			projectRoot = "";
 			targets = (
 				FAF0B00F2A8DBA9D00F12357 /* CDBootcamp */,
+				FAF0B02A2A8DBADD00F12357 /* CDBootcampTests */,
+				FAF0B0372A8DBBC800F12357 /* CDBootcampUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +234,20 @@
 				FAF0B0202A8DBA9F00F12357 /* LaunchScreen.storyboard in Resources */,
 				FAF0B01D2A8DBA9F00F12357 /* Assets.xcassets in Resources */,
 				FAF0B01B2A8DBA9D00F12357 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF0B0292A8DBADD00F12357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF0B0362A8DBBC800F12357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +264,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FAF0B0272A8DBADD00F12357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF0B02E2A8DBADD00F12357 /* CDBootcampTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF0B0342A8DBBC800F12357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF0B03D2A8DBBC800F12357 /* CDBootcampUITestsLaunchTests.swift in Sources */,
+				FAF0B03B2A8DBBC800F12357 /* CDBootcampUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAF0B0302A8DBADD00F12357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF0B00F2A8DBA9D00F12357 /* CDBootcamp */;
+			targetProxy = FAF0B02F2A8DBADD00F12357 /* PBXContainerItemProxy */;
+		};
+		FAF0B03F2A8DBBC800F12357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF0B00F2A8DBA9D00F12357 /* CDBootcamp */;
+			targetProxy = FAF0B03E2A8DBBC800F12357 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FAF0B0192A8DBA9D00F12357 /* Main.storyboard */ = {
@@ -336,6 +486,76 @@
 			};
 			name = Release;
 		};
+		FAF0B0322A8DBADD00F12357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QU42AC77L3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahmatsusanto.dev.CDBootcampTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CDBootcamp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CDBootcamp";
+			};
+			name = Debug;
+		};
+		FAF0B0332A8DBADD00F12357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QU42AC77L3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahmatsusanto.dev.CDBootcampTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CDBootcamp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CDBootcamp";
+			};
+			name = Release;
+		};
+		FAF0B0412A8DBBC800F12357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QU42AC77L3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahmatsusanto.dev.CDBootcampUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CDBootcamp;
+			};
+			name = Debug;
+		};
+		FAF0B0422A8DBBC800F12357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QU42AC77L3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahmatsusanto.dev.CDBootcampUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CDBootcamp;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -353,6 +573,24 @@
 			buildConfigurations = (
 				FAF0B0252A8DBA9F00F12357 /* Debug */,
 				FAF0B0262A8DBA9F00F12357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF0B0312A8DBADD00F12357 /* Build configuration list for PBXNativeTarget "CDBootcampTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF0B0322A8DBADD00F12357 /* Debug */,
+				FAF0B0332A8DBADD00F12357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF0B0402A8DBBC800F12357 /* Build configuration list for PBXNativeTarget "CDBootcampUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF0B0412A8DBBC800F12357 /* Debug */,
+				FAF0B0422A8DBBC800F12357 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
